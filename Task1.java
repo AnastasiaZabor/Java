@@ -9,7 +9,7 @@ public class Task1 {
         System.out.println(percent);
     }
     public static int[] InitArray(){
-        int[] array = new int[10];
+        int[] array = new int[1000];
         for (int i = 0; i < array.length; i++) {
             array[i] = ((int)(Math.random() * 25));
         }
